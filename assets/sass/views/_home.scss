@@ -1,0 +1,20 @@
+@use "../utilities/variables" as v;
+
+body {
+    background-color: v.$color-primario;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: $color-secundario;
+}
+
+.bg-body-barra {
+    background-color: v.$color-secundario;
+}
+
+.colors {
+    color: v.$color-primario;
+}
+
+.card {
+    background-color: transparent;
+}
