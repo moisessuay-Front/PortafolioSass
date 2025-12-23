@@ -1,0 +1,18 @@
+body {
+  background-color: #FFD700;
+  font-family: sans-serif;
+  font-weight: bolder;
+  color: #000000;
+}
+
+.bg-body-barra {
+  background-color: #000000;
+}
+
+.colors {
+  color: #FFD700;
+}
+
+.card {
+  background-color: transparent;
+}/*# sourceMappingURL=main.css.map */
