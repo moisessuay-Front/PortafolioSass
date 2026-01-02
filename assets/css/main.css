@@ -15,4 +15,7 @@ body {
 
 .card {
   background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=main.css.map */
