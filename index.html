@@ -90,6 +90,55 @@
 </div>
 </Section>
 
+<!-- Seccion Bursatil -->
+    <div class="container text-center">
+        
+        <aside class="tarjeta formulario-contenedor">
+            <h2>Agregar Activo Financiero</h2>
+            <form id="formulario-datos">
+                <div class="grupo-input">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" placeholder="Ej: Bitcoin">
+                </div>
+                
+                <div class="grupo-input">
+                    <label for="simbolo">Símbolo</label>
+                    <input type="text" id="simbolo" placeholder="Ej: BTC">
+                </div>
+
+                <div class="grupo-input">
+                    <label for="precio">Precio Actual</label>
+                    <input type="number" step="0.01" id="precio" placeholder="Ej: 40765">
+                </div>
+
+                <button type="submit" class="boton-azul">Agregar Activo</button>
+                <p id="mensaje-error" class="mensaje-error oculto">Por favor complete todos los campos.</p>
+            </form>
+        </aside>
+
+        <main class="tarjeta lista-contenedor">
+            <h2>Listado de Activos</h2>
+            <div class="tabla-scroll d-flex justify-content-evenly">
+                <table class="tabla-usuarios">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Símbolo</th>
+                            <th>Precio</th> 
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody id="cuerpo-tabla">
+                        </tbody>
+                </table>
+                <div id="mensaje-vacio" class="mensaje-vacio">
+                    No hay registros disponibles.
+                </div>
+            </div>
+        </main>
+    </div>
+
+
 <Footer class="py-6 container-flex bg-body-barra colors">
   <div class="container py-5">
     <h2 class="text-center">Contactos y Url's</h2> 
@@ -151,7 +200,6 @@
 
 
 
-<script src="./assets/js/script.js"></script>
 <script src="https://kit.fontawesome.com/21df478718.js" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
